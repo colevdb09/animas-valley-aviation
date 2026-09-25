@@ -189,8 +189,8 @@ a {
 /* Centered Meet Your Instructor photo */
 .portrait-image {
   display:block;
-  width:100%;
-  max-width:100%;
+  width:75%;
+  max-width:75%;
   height:auto;
   aspect-ratio:4/5;
   object-fit:cover;
@@ -433,15 +433,6 @@ footer {
     object-position:58% center
   }
 
-  .portrait-image {
-    width:50%;
-    max-width:50%;
-    height:auto;
-    aspect-ratio:4/5;
-    object-fit:cover;
-    margin:0 auto
-  }
-
   .section {
     padding:75px 0
   }
@@ -488,13 +479,5 @@ footer {
 
   .brand span:last-child {
     font-size:14px
-  }
-
-  .portrait-image {
-    width:75%;
-    height:auto;
-    aspect-ratio:4/5;
-    object-fit:cover;
-    margin:0 auto
   }
 }
